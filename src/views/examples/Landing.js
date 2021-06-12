@@ -25,6 +25,8 @@ import team1 from "assets/img/theme/team-1-800x800.jpg";
 import team2 from "assets/img/theme/team-2-800x800.jpg";
 import team3 from "assets/img/theme/team-3-800x800.jpg";
 import team4 from "assets/img/theme/team-4-800x800.jpg";
+import SimpleFooter from "components/Footers/SimpleFooter.js";
+
 
 // reactstrap components
 import {
@@ -64,7 +66,7 @@ class Landing extends React.Component {
         <main ref="main">
           <div className="position-relative">
             {/* shape Hero */}
-            <section className="section section-lg section-shaped pb-250">
+            <section className="section section-lg section-shaped pb-250" style={{backgroundImage:'URL(https://wallpaper.dog/large/10921317.jpg)'}}>
               <div className="shape shape-style-1 shape-default">
                 <span />
                 <span />
@@ -78,18 +80,20 @@ class Landing extends React.Component {
               </div>
               <Container className="py-lg-md d-flex">
                 <div className="col px-0">
+                  
+
+
+
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                      What excites me the most about tech{" "}
+                        <span></span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                      Excitement with the technology is just to know what’s next. New innovations are taking technology on the other level, Nobody can predict where the technology will take us in the coming years. So what achievements technology will do next is the best thing that excites the most.
                       </p>
-                      <div className="btn-wrapper">
+                      {/* <div className="btn-wrapper">
                         <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
@@ -112,9 +116,9 @@ class Landing extends React.Component {
                             Download React
                           </span>
                         </Button>
-                      </div>
+                      </div> */}
                     </Col>
-                  </Row>
+                  </Row> 
                 </div>
               </Container>
               {/* SVG separator */}
@@ -136,7 +140,9 @@ class Landing extends React.Component {
             </section>
             {/* 1st Hero Variation */}
           </div>
-          <section className="section section-lg pt-lg-0 mt--200">
+
+
+          <section>
             <Container>
               <Row className="justify-content-center">
                 <Col lg="12">
@@ -148,31 +154,31 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            Zad shelves
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                          ZadShelves is an open source, web sharing platform for books and journals. Anyone can join our community by donating their books or requesting to rent books through our website from our generous donors.
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
-                              design
+                            creative
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              system
+                              read
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              creative
+                            library
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
                             color="primary"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href="https://casual-coders.github.io/Electronic-library/"
+                            target="_blank"
                           >
-                            Learn more
+                            
+                            visit
+                            
                           </Button>
                         </CardBody>
                       </Card>
@@ -184,12 +190,10 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            project 301 placeHolder
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
@@ -220,12 +224,10 @@ class Landing extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            project 401 placeHolder
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
@@ -254,6 +256,8 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
+
+{/* 
           <section className="section section-lg">
             <Container>
               <Row className="row-grid align-items-center">
@@ -330,7 +334,8 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
+          </section> */}
+{/*           
           <section className="section bg-secondary">
             <Container>
               <Row className="row-grid align-items-center">
@@ -402,6 +407,20 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
+         
+         
+         
+         
+          */}
+         
+         
+         
+         
+         
+         
+{/*          
+         
+         
           <section className="section pb-0 bg-gradient-warning">
             <Container>
               <Row className="row-grid align-items-center">
@@ -489,7 +508,7 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-            {/* SVG separator */}
+            {/* SVG separator 
             <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -506,6 +525,9 @@ class Landing extends React.Component {
               </svg>
             </div>
           </section>
+          
+          
+          
           <section className="section section-lg">
             <Container>
               <Row className="justify-content-center text-center mb-lg">
@@ -769,7 +791,7 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-            {/* SVG separator */}
+            {/* SVG separator 
             <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -861,9 +883,16 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <Download />
+          
+           */}
+          
+          
+          {/* <Download /> */}
+       
+       
         </main>
-        <CardsFooter />
+        <SimpleFooter/>
+        {/* <CardsFooter /> */}
       </>
     );
   }

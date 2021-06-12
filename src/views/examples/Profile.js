@@ -107,18 +107,19 @@ class Profile extends React.Component {
                     </Col>
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
-                        <div>
-                          <span className="heading">22</span>
-                          <span className="description">Friends</span>
+                      <div>
+                          <span className="heading">301</span>
+                          <span className="description">Codefellows level</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
-                          <span className="description">Photos</span>
+                          <span className="heading">4</span>
+                          <span className="description">Projects</span>
                         </div>
-                        <div>
+                        
+                        {/* <div>
                           <span className="heading">89</span>
                           <span className="description">Comments</span>
-                        </div>
+                        </div> */}
                       </div>
                     </Col>
                   </Row>
@@ -161,120 +162,7 @@ class Profile extends React.Component {
           </section>
 
 
-           <section>
-            <Container>
-              <Row className="justify-content-center">
-                <Col lg="12">
-                  <Row className="row-grid">
-                    <Col lg="4">
-                      <Card className="card-lift--hover shadow border-0">
-                        <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                            <i className="ni ni-check-bold" />
-                          </div>
-                          <h6 className="text-primary text-uppercase">
-                            Zad shelves
-                          </h6>
-                          <p className="description mt-3">
-                          ZadShelves is an open source, web sharing platform for books and journals. Anyone can join our community by donating their books or requesting to rent books through our website from our generous donors.
-                          </p>
-                          <div>
-                            <Badge color="primary" pill className="mr-1">
-                            creative
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              read
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                            library
-                            </Badge>
-                          </div>
-                          <Button
-                            className="mt-4"
-                            color="primary"
-                            href="https://casual-coders.github.io/Electronic-library/"
-                            target="_blank"
-                          >
-                            
-                            visit
-                            
-                          </Button>
-                        </CardBody>
-                      </Card>
-                    </Col>
-                    <Col lg="4">
-                      <Card className="card-lift--hover shadow border-0">
-                        <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                            <i className="ni ni-istanbul" />
-                          </div>
-                          <h6 className="text-success text-uppercase">
-                            project 301 placeHolder
-                          </h6>
-                          <p className="description mt-3">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                          </p>
-                          <div>
-                            <Badge color="success" pill className="mr-1">
-                              business
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              vision
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              success
-                            </Badge>
-                          </div>
-                          <Button
-                            className="mt-4"
-                            color="success"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </Button>
-                        </CardBody>
-                      </Card>
-                    </Col>
-                    <Col lg="4">
-                      <Card className="card-lift--hover shadow border-0">
-                        <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                            <i className="ni ni-planet" />
-                          </div>
-                          <h6 className="text-warning text-uppercase">
-                            project 401 placeHolder
-                          </h6>
-                          <p className="description mt-3">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                          </p>
-                          <div>
-                            <Badge color="warning" pill className="mr-1">
-                              marketing
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              product
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              launch
-                            </Badge>
-                          </div>
-                          <Button
-                            className="mt-4"
-                            color="warning"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </Button>
-                        </CardBody>
-                      </Card>
-                    </Col>
-                  </Row>
-                </Col>
-              </Row>
-            </Container>
-          </section>
+           
 
           
           
