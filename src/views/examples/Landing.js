@@ -190,29 +190,30 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            project 301 placeHolder
+                            H&M Health Care
                           </h6>
                           <p className="description mt-3">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            H&M (health and medicine) is a web application which allows the user to search and order medicine, or to make an appointment with a doctor on a specific date, there are other options like reordering the same medicine.
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
-                              business
+                              Medicine
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              vision
+                              Health
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              success
+                              Doctor
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
                             color="success"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href="https://peaceful-payne-d7bbbc.netlify.app/"
+                            target="_blank"
+                            
                           >
-                            Learn more
+                            Visit
                           </Button>
                         </CardBody>
                       </Card>
